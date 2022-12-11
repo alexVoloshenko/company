@@ -60,7 +60,7 @@ app.post("/api/users/login", jsonParser, function(req, res) {
     });
 })
 app.get('/', function(request, response) {
-    response.send('Hello World!');
+    response.send('Company API');
   });
 
 app.listen(process.env.PORT || 5000, function(){
